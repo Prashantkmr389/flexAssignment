@@ -5,6 +5,20 @@
 	<title>flex</title>
 </head>
 <body>
+	<div>
+		Name : Prashant Kumar <br>
+		Roll No : 2006153
+	</div>
+	<h2>1. Explain box model with an example. </h2>
+	<p>
+		In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+	</p>
+	<div class="margin"><h2>Margin</h2></div>
+	<div class="border"><h2>Border</h2></div>
+	<div class="padding"><h2>Padding</h2></div>
+	<br>
+	<h1>Now Question 2 using flex</h1>
+	<br>
 	<div id="container">
 		<div id="div1">
 			Div 1
@@ -63,5 +77,29 @@
 	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQROC1QdTfNU6-qVxfpduwsUGu2n5bviGFTwg&usqp=CAU);
 	margin: 5px;
 }
+.margin {
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    background-color: #9d6f81;
+}
+.border {
+    height: 320px;
+    position: relative;
+    top: 3px;
+    width: 420px;
+    margin: auto;
+    background-color: #c1c19f;
+}
+
+.padding {
+    height: 240px;
+    width: 340px;
+    margin: auto;
+    background-color: #7b9d7b;
+    position: relative;
+    top: 3px;
+}
+
 </style>
 </html>
