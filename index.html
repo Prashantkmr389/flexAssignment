@@ -13,9 +13,12 @@
 	<p>
 		In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
 	</p>
-	<div class="margin"><h2>Margin</h2></div>
-	<div class="border"><h2>Border</h2></div>
-	<div class="padding"><h2>Padding</h2></div>
+	<div class="margin"><h2>Margin</h2>
+		<div class="border"><h2>Border</h2>
+			<div class="padding"><h2>Padding</h2>
+				<div class="content"><h2>Conent</h2></div>
+			</div>
+		</div>
 	<br>
 	<h1>Now Question 2 using flex</h1>
 	<br>
@@ -100,6 +103,13 @@
     position: relative;
     top: 3px;
 }
-
+.content {
+    height: 160px;
+    width: 260px;
+    margin: auto;
+    background-color: #58589b;
+    position: relative;
+    top: 3px;
+}
 </style>
 </html>
